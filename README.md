@@ -8,3 +8,4 @@ A MediaWiki extension for creating wiki tables that are uploaded directly to the
 2. Edit and rename config.dist.php to config.php
 3. Install the required OpasnetBaseImport2 extension
 4. Enable Table2Base in MediaWiki config
+5. Run MediaWiki update.php to apply wiki database changes

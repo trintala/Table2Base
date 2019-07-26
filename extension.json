@@ -1,0 +1,18 @@
+{
+	"name": "Table2Base",
+	"version": 2.11,
+	"author": "Juha Villman, Einari Happonen, Teemu Rintala",
+	"url": "http://en.opasnet.org/w/Table2Base",
+	"description": "enables direct upload of data from wikipages to Opasnet Base",
+	"descriptionmsg": "foobar-desc",
+	"license-name": "MIT",
+	"type": "tag",
+	"AutoloadClasses": {
+		"Table2BaseParser": "Table2BaseParser.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Table2BaseParser::efT2BParserInit",
+		"LoadExtensionSchemaUpdates": "Table2BaseParser::onDatabaseUpdate"
+	},
+	"manifest_version": 1
+}
